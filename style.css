@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+h2 {
+  margin-top: 30px;
+}
+
+button {
+  padding: 8px 15px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+#hoverBox {
+  background: lightgray;
+  padding: 15px;
+  width: 200px;
+  margin-top: 10px;
+}
+
+.dark-mode {
+  background-color: #222;
+  color: #fff;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.success {
+  color: green;
+  font-weight: bold;
+}
+
+#counterContainer {
+  margin-top: 10px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Web Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🚀 Interactive Web Page Demo</h1>
+
+  <!-- Part 1: Event Handling -->
+  <section>
+    <h2>🎉 Event Handling Example</h2>
+    <button id="clickBtn">Click Me</button>
+    <p id="clickMessage"></p>
+    <div id="hoverBox">Hover over me!</div>
+  </section>
+
+  <!-- Part 2: Interactive Elements -->
+  <section>
+    <h2>🎮 Interactive Elements</h2>
+    <!-- Light/Dark Mode -->
+    <button id="toggleThemeBtn">Toggle Light/Dark Mode</button>
+
+    <!-- Counter -->
+    <div id="counterContainer">
+      <button id="decreaseBtn">-</button>
+      <span id="counterValue">0</span>
+      <button id="increaseBtn">+</button>
+    </div>
+  </section>
+
+  <!-- Part 3: Form Validation -->
+  <section>
+    <h2>📋 Form Validation</h2>
+    <form id="signupForm">
+      <label>Name: <input type="text" id="name" placeholder="Your name"></label>
+      <small class="error" id="nameError"></small>
+
+      <label>Email: <input type="text" id="email" placeholder="example@mail.com"></label>
+      <small class="error" id="emailError"></small>
+
+      <label>Password: <input type="password" id="password" placeholder="******"></label>
+      <small class="error" id="passwordError"></small>
+
+      <button type="submit">Sign Up</button>
+      <p id="formSuccess" class="success"></p>
+    </form>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>
